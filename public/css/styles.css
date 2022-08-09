@@ -122,3 +122,23 @@ main {
 main section {
     width: 50%;
 }
+<<<<<<< HEAD
+=======
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form label span {
+    font-size: 0.8rem;
+}
+
+form label input, form label select {
+    width: 100%;
+}
+
+form label input[type=checkbox]{
+    width: auto;
+}
+>>>>>>> a85c1873597de07bdd90b05623a2a034264dd87c
