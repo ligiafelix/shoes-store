@@ -2,34 +2,28 @@
     box-sizing: border-box;
     font-family: 'Open Sans';
 }
-
 html {
     font-size: 16px;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-
 header img {
     width: 100px;
 }
-
 nav ul {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 nav ul li a {
     display: inline-block;
     padding: 10px;
@@ -37,38 +31,30 @@ nav ul li a {
     color: #666;
     font-size: 0.8rem;
 }
-
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 #destaque img {
     width: 100%;
 }
-
 #estilo h2 {
     text-align: center;
 }
-
 .container {
     width: 960px;
     margin: 0 auto;
 }
-
 #estilo div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 #estilo div img:nth-child(1) {
     width: 38%;
 }
-
 #estilo div img:nth-child(2) {
     width: 57%;
 }
-
 footer {
     width: 100%;
     height: 300px;
@@ -81,64 +67,63 @@ footer {
     background: #C21856;
     margin-top: 20px;
 }
-
 .contatos {
     grid-area: contatos;
 }
-
 .categorias {
     grid-area: categorias;
 }
-
 .institucional {
     grid-area: institucional;
 }
-
 footer img {
     width: 250px;
 }
-
 footer p {
     color: #fff;
 }
-
 footer article ul li a {
     color: #fff;
 }
-
 footer ul li {
     list-style: none;
 }
-
 footer li a {
     text-decoration: none;
 }
-
 main {
     display: flex;
     column-gap: 10px;
 }
-
 main section {
     width: 50%;
 }
-<<<<<<< HEAD
-=======
-
 form label {
     display: block;
     margin-bottom: 10px;
 }
-
 form label span {
     font-size: 0.8rem;
 }
-
 form label input, form label select {
     width: 100%;
 }
-
-form label input[type=checkbox]{
+form label input[type=checkbox],
+form label input[type=radio]{
     width: auto;
 }
->>>>>>> a85c1873597de07bdd90b05623a2a034264dd87c
+
+form label input[type=file]{
+display: none;
+}
+form label input[type=file]+span{
+    cursor: pointer;
+    background: #C21856;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px 0px 6px 0px;
+}
+form label input[type=file]+span:hover{
+    background-color: #b67e93;
+    color: aqua;
+}
