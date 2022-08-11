@@ -127,3 +127,13 @@ form label input[type=file]+span:hover{
     background-color: #b67e93;
     color: aqua;
 }
+
+section.destaque{
+    background-color: #C21856;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    top: 10px;
+    left: 30px;
+    position: relative;
+}
