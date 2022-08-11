@@ -108,24 +108,18 @@ form label span {
 form label input, form label select {
     width: 100%;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> bf25ec2afbb8425a39fb267386cea999ea76535a
 form label input[type=checkbox],
 form label input[type=radio]{
     width: auto;
 }
 
 form label input[type=file]{
-<<<<<<< HEAD
+
 display: none;
 }
-=======
-    display: none;
-}
 
->>>>>>> bf25ec2afbb8425a39fb267386cea999ea76535a
+
 form label input[type=file]+span{
     cursor: pointer;
     background: #C21856;
@@ -133,7 +127,6 @@ form label input[type=file]+span{
     color: #fff;
     border-radius: 6px 0px 6px 0px;
 }
-<<<<<<< HEAD
 form label input[type=file]+span:hover{
     background-color: #b67e93;
     color: aqua;
@@ -148,17 +141,9 @@ section.destaque{
     left: 30px;
     position: relative;
 }
-=======
 
 form label input[type=file]+span:hover{
     background-color: #f793b8;
     color: #C21856;
 }
 
-
-
-
-
-
-
->>>>>>> bf25ec2afbb8425a39fb267386cea999ea76535a
