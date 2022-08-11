@@ -10,10 +10,10 @@
     </style>
         
     <link rel="stylesheet" href="./public/css/styles.css">
-
+    <link rel="stylesheet" href="./public/css/index.css">
 </head>
 <body>
-    <header>
+    <header id="banner">
         <img src="./public/img/logo-color.png" alt="Shoes">
         <nav>
             <ul>
@@ -23,73 +23,59 @@
             </ul>
         </nav>
     </header>
-
-    <main class="container">
-        <section>
-            <h2>Faça parte do nosso time</h2>
-            <form action="endereco/para/onde/o/form/vai" method="get">
-                
-                <label for="nome">
-                    <span>Nome</span>
-                    <input id="nome" type="text" name="nomeDoCandidato" placeholder="Digite o seu nome aqui">
-                </label>
-
-                <label>
-                    <span>E-mail</span>
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
-                </label>
-
-                <input type="hidden" name="visitouPagina" value="1">
-
-                <label>
-                    <span>Telefone</span>
-                    <input type="tel" name="telefone" id="telefone">
-                </label>
-
-                <label>
-                    <span>Departamento</span>
-                    <select name="departamento" id="departamento">
-                        <option selected disabled>Selecione um departamento</option>
-                        <optgroup label="Departamentos bons...">
-                            <option value="prog">Programação</option>
-                            <option value="data">Ciência de dados</option>
-                        </optgroup>
-                        <optgroup label="Departamentos não bons...">
-                            <option value="vend">Vendas</option>
-                            <option value="mark">Marketing</option>
-                        </optgroup>
-                    </select>
-                </label>
-
+    
+    <section id="destaque" class="banner">
+        <img src="./public/img/banner.png" alt="Vantagens">
+    </section>
+    
+    <section id="estilo">
+        <h2>encontre seu estilo</h2>
+        <div class="container">
+            <img src="./public/img/photoshoot-1.png" alt="">
+            <img src="./public/img/photoshoot-2.png" alt="">
+        </div>
+    </section>
+    <section id="off">
+        <h2>30% OFF</h2>
+        <div>
+            <a href="#">
+                <img src="" alt="">
                 <div>
-                    <h3>Disponibilidade</h3>
-                    <label>
-                        <input type="checkbox" name="disp_integral">
-                        <span>Integral (8h)</span>
-                    </label>
-                    <label for="disp_meioperiodo">
-                        <input type="checkbox" name="disp_meioperiodo" id="disp_meioperiodo">
-                        <span>Meio Período (4h)</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="disp_freela">
-                        <span>Freelancer (burro de carga)</span>
-                    </label>
+                    <span class="nome">Scarpin Salto Fino Básico</span>
+                    <span class="preco">R$ 140,00</span>
                 </div>
-
-                <button type="submit">
-                    Enviar
-                </button>
-            </form>
-        </section>
-        
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
-        </section>
-    </main>
-
+            </a>
+            <a href="#">
+                <img src="" alt="">
+                <div>
+                    <span class="nome">Scarpin Salto Fino Básico</span>
+                    <span class="preco">R$ 140,00</span>
+                </div>
+            </a>
+            <a href="#">
+                <img src="" alt="">
+                <div>
+                    <span class="nome">Scarpin Salto Fino Básico</span>
+                    <span class="preco">R$ 140,00</span>
+                </div>
+            </a>
+            <a href="#">
+                <img src="" alt="">
+                <div>
+                    <span class="nome">Scarpin Salto Fino Básico</span>
+                    <span class="preco">R$ 140,00</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="produto-destaque">
+        <h2>
+            Sandália Palmilha Matelassê Tiras Rolote
+        </h2>
+        <a class="button" href="#">ver detalhes</a>
+        <img src="" alt="Detalhe do produto">
+        <img src="" alt="Produto na modelo">
+    </section>
     <footer>
         <section id="Contatos">
             <img src="./public/img/logo-white.png" alt="Shoes">
